@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:local="clr-namespace:App1"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage"
+             BarBackgroundColor="#FFF"
+             BarTextColor="Gray"
+             UnselectedTabColor="Gray"
+             SelectedTabColor="#DB4437"
+            >
+
+    <local:PromotionsPage ></local:PromotionsPage>
+    <local:SocialPage IsEnabled="True"></local:SocialPage>
+    <local:ForumPage></local:ForumPage>
+
+</TabbedPage>
