@@ -14,27 +14,13 @@ namespace App1
     [DesignTimeVisible(false)]
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
-    public partial class MainPage : Xamarin.Forms.TabbedPage
+    public partial class MainPage : Xamarin.Forms.MasterDetailPage
     {
 
         public MainPage()
         {
             InitializeComponent();
-
-            On<Xamarin.Forms.PlatformConfiguration.Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
-
         }
 
-        //protected override void OnAppearing()
-        //{
-        //    base.OnAppearing();
-
-        //    entry.Text = (Application.Current as App).DisplayText;
-        //}
-
-        //void OnEntryCompleted(object sender, EventArgs e)
-        //{
-        //    (Application.Current as App).DisplayText = entry.Text;
-        //}
     }
 }

@@ -1,16 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:local="clr-namespace:App1"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.MainPage"
-             BarBackgroundColor="#FFF"
-             BarTextColor="Gray"
-             UnselectedTabColor="Gray"
-             SelectedTabColor="#DB4437"
-            >
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local1="clr-namespace:App1.View"
+                    x:Class="App1.MainPage"
+                    Title="Master Detail Page" 
+                    BackgroundColor="#DB4437">
+   
 
-    <local:PromotionsPage ></local:PromotionsPage>
-    <local:SocialPage IsEnabled="True"></local:SocialPage>
-    <local:ForumPage></local:ForumPage>
+    <!--BARRA DE OPÇÕES/REDIRECIONAMENTOS-->
+    <MasterDetailPage.Master >
 
-</TabbedPage>
+        <ContentPage  Title="My Title"  Padding="10">
+            <ContentPage.Resources>
+                <Style TargetType="StackLayout" Class="ListItemPage">
+                    <Setter Property="BackgroundColor" Value="#F8D9D7" />
+                    <Setter Property="Orientation" Value="Horizontal" />
+                    <Setter Property="WidthRequest" Value="350" />
+                    <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+                    <Setter Property="Padding" Value="15, 2, 0, 2" />
+                    <Setter Property="Spacing" Value="150" />
+                </Style>
+
+                <Style TargetType="Button" Class="ButtonItem">
+                    <Setter Property="BackgroundColor" Value="Transparent" />
+                    <Setter Property="TextColor" Value="#B93221" />
+                    <Setter Property="FontSize" Value="15" />
+                    <Setter Property="TextTransform" Value="None" />
+                </Style>
+                
+                
+            </ContentPage.Resources>
+            
+            <ContentPage.Content>
+                
+                <!--LAYOUT HORIZONTAL (POR DEFAULT)-->
+                <ScrollView Margin="0,10,0,5" VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Gmail" TextColor="#DB4437" FontSize="20" Margin="20, 0, 0, 20"/>
+
+                        <StackLayout>
+
+                            <StackLayout StyleClass="ListItemPage" BackgroundColor="#F8D9D7">
+                                <StackLayout Orientation="Horizontal"  BackgroundColor="Transparent">
+                                    <Image Source="@drawable/promotion_icon" WidthRequest="25" VerticalOptions="Center" />
+                                    <Button StyleClass="ButtonItem" Text="Promotions" />
+                                </StackLayout>
+
+                                <Label Text="99+" TextColor="#B93221" VerticalOptions="Center" FontSize="12" FontAttributes="Bold" HorizontalOptions="End" />
+                            </StackLayout>
+
+                            <StackLayout StyleClass="ListItemPage" BackgroundColor="Transparent">
+                                <StackLayout Orientation="Horizontal"  BackgroundColor="Transparent">
+                                    <Image Source="@drawable/ssocial_icon" WidthRequest="25" VerticalOptions="Center" />
+                                    <Button Text="Social" StyleClass="ButtonItem" TextColor="Gray"/>
+                                </StackLayout>
+
+                            </StackLayout>
+
+                            <StackLayout StyleClass="ListItemPage" BackgroundColor="Transparent">
+                                <StackLayout Orientation="Horizontal"  BackgroundColor="Transparent" >
+                                    <Image Source="@drawable/forum_icon" WidthRequest="25" VerticalOptions="Center" />
+                                    <Button Text="Forum" StyleClass="ButtonItem" TextColor="Gray" />
+                                </StackLayout>
+
+                                <Label Text="32 new" TextColor="Gray" VerticalOptions="Center" FontSize="12" FontAttributes="Bold" HorizontalOptions="End" />
+                            </StackLayout>
+
+
+
+
+
+
+                        </StackLayout>
+
+                    </StackLayout>
+                </ScrollView>
+            </ContentPage.Content>
+        </ContentPage>
+        
+    </MasterDetailPage.Master>
+
+    <!--CONTEUDOS REDIRECIONADOS-->
+    <MasterDetailPage.Detail>
+
+        <NavigationPage>
+            <x:Arguments>
+                <local1:HomeTabbedPage/>
+            </x:Arguments>
+        </NavigationPage>
+
+    </MasterDetailPage.Detail>
+    
+</MasterDetailPage>

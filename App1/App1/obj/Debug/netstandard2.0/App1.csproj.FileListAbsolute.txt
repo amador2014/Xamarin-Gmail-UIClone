@@ -7,10 +7,11 @@ C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xama
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
-C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\App1.dll
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\App1.pdb
-C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\ForumPage.xaml.g.cs
-C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\PromotionsPage.xaml.g.cs
-C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\SocialPage.xaml.g.cs
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\ForumPage.xaml.g.cs
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\PromotionsPage.xaml.g.cs
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\SocialPage.xaml.g.cs
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\HomeTabbedPage.xaml.g.cs
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
