@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>nexus_5x_oreo_8_1_-_api_27</SelectedDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

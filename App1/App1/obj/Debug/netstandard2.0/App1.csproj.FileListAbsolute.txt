@@ -15,3 +15,4 @@ C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xama
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\SocialPage.xaml.g.cs
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\View\HomeTabbedPage.xaml.g.cs
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\obj\Debug\netstandard2.0\Styles\global.css.g.cs

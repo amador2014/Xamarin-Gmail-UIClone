@@ -12,6 +12,10 @@
 
         <ContentPage  Title="My Title"  Padding="10">
             <ContentPage.Resources>
+                <!--FOLHA DE CASCATA-->
+                <StyleSheet Source="Styles/global.css" />
+
+                <!--ESTILOS INDIRETOS-->
                 <Style TargetType="StackLayout" Class="ListItemPage">
                     <Setter Property="BackgroundColor" Value="#F8D9D7" />
                     <Setter Property="Orientation" Value="Horizontal" />
@@ -22,15 +26,15 @@
                 </Style>
 
                 <Style TargetType="Button" Class="ButtonItem">
-                    <Setter Property="BackgroundColor" Value="Transparent" />
+                    <Setter Property="BackgroundColor" Value="#E6E6E6" />
                     <Setter Property="TextColor" Value="#B93221" />
                     <Setter Property="FontSize" Value="15" />
                     <Setter Property="TextTransform" Value="None" />
+                    <Setter Property="WidthRequest" Value="350" />
                 </Style>
-                
-                
+
             </ContentPage.Resources>
-            
+                                                
             <ContentPage.Content>
                 
                 <!--LAYOUT HORIZONTAL (POR DEFAULT)-->
@@ -38,7 +42,40 @@
                     <StackLayout>
                         <Label Text="Gmail" TextColor="#DB4437" FontSize="20" Margin="20, 0, 0, 20"/>
 
-                        <StackLayout>
+
+                        <ListView x:Name="navigationDrawerList"
+                                  RowHeight="55"
+                                  SeparatorVisibility="Default"
+                                  BackgroundColor="#e8e8e8"
+                                  ItemSelected="OnMenuItemSelected">
+
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+
+                                        <!-- Main design for our menu items -->
+                                        <StackLayout VerticalOptions="FillAndExpand"
+                                                     Orientation="Horizontal"
+                                                     Padding="20,10,0,10"
+                                                     Spacing="20">
+
+                                            <Image Source="{Binding Icon}"
+                                                     WidthRequest="40"
+                                                     HeightRequest="40"
+                                                     VerticalOptions="Start" />
+
+                                            <Label Text="{Binding Title}"
+                                                     FontSize="Small"
+                                                     VerticalOptions="End"
+                                                     TextColor="Black"/>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                    
+                    <!--<StackLayout StyleClass="bg">
 
                             <StackLayout StyleClass="ListItemPage" BackgroundColor="#F8D9D7">
                                 <StackLayout Orientation="Horizontal"  BackgroundColor="Transparent">
@@ -52,7 +89,7 @@
                             <StackLayout StyleClass="ListItemPage" BackgroundColor="Transparent">
                                 <StackLayout Orientation="Horizontal"  BackgroundColor="Transparent">
                                     <Image Source="@drawable/ssocial_icon" WidthRequest="25" VerticalOptions="Center" />
-                                    <Button Text="Social" StyleClass="ButtonItem" TextColor="Gray"/>
+                                    <Button Text="Social" StyleClass="ButtonItem" TextColor="Gray" Clicked="Handle_Social"/>
                                 </StackLayout>
 
                             </StackLayout>
@@ -65,13 +102,7 @@
 
                                 <Label Text="32 new" TextColor="Gray" VerticalOptions="Center" FontSize="12" FontAttributes="Bold" HorizontalOptions="End" />
                             </StackLayout>
-
-
-
-
-
-
-                        </StackLayout>
+                        </StackLayout>-->
 
                     </StackLayout>
                 </ScrollView>

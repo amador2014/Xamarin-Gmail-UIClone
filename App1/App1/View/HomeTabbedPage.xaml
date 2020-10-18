@@ -6,11 +6,12 @@
              xmlns:local="clr-namespace:App1"
              mc:Ignorable="d"
              x:Class="App1.View.HomeTabbedPage"
-             Title="Primary" 
-             BarBackgroundColor="#FFF"
-             BarTextColor="Gray"
-             UnselectedTabColor="Gray"
-             SelectedTabColor="#DB4437">
+           
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.IsSmoothScrollEnabled="True"
+            Title="Primary" 
+            BarBackgroundColor="#FFF"
+            BarTextColor="Gray" >
 
             <local:PromotionsPage ></local:PromotionsPage>
             <local:SocialPage></local:SocialPage>
