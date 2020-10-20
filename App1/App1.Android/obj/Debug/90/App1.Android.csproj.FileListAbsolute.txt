@@ -560,3 +560,6 @@ C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xama
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\flata\7B887BD741A02D18.flata
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\android\assets\FFImageLoading.Transformations.dll
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\android\assets\FFImageLoading.Transformations.pdb
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\res\drawable\archived_icon.png
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\res\drawable\favorite_icon.png
+C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp

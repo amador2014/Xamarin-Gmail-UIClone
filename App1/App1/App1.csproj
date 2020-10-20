@@ -18,6 +18,11 @@
 
   <ItemGroup>
     <None Remove="Styles\global.css" />
+    <None Remove="user_generic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="user_generic.png" />
   </ItemGroup>
 
   <ItemGroup>

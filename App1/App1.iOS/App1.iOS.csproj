@@ -162,4 +162,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\gmail_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\archived_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\favorite_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\user_generic.png" />
+  </ItemGroup>
 </Project>
