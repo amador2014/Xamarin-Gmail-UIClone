@@ -13,15 +13,17 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="CSS\global.css" />
-    <EmbeddedResource Remove="Styles\globalStyle.css" />
+    <EmbeddedResource Remove="Assets\globalStyle.css" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Styles\global.css" />
+    <None Remove="loading.gif" />
+    <None Remove="Assets\global.css" />
     <None Remove="user_generic.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="loading.gif" />
     <EmbeddedResource Include="user_generic.png" />
   </ItemGroup>
 
@@ -32,6 +34,12 @@
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>

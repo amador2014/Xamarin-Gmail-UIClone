@@ -125,7 +125,7 @@
     <AndroidResource Include="Resources\drawable\gmail_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\loading.gif" />
+    <EmbeddedResource Include="Resources\drawable\loading.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\archived_icon.png" />

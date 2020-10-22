@@ -20,7 +20,6 @@ namespace App1.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.SetFlags("SwipeView_Experimental");//SHAPEVIEW ITEM
-            Forms.SetFlags("Shapes_Experimental"); //DRAW CIRCLE
             global::Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState); //FORM INIT
             CachedImageRenderer.Init(enableFastRenderer:true); //FFImageForm

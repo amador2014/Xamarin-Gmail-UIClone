@@ -486,7 +486,6 @@ C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xama
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\res\drawable\splash_screen.xml
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\res\drawable\gmail_icon.png
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\android\src\crc64ad68f59cd763e462\AndroidSplashScreen.java
-C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\res\drawable\loading.gif
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\android\assets\Lottie.Forms.dll
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\android\assets\Lottie.Forms.pdb
 C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\flata\E31118603DA06388.stamp

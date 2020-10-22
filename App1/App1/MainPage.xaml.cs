@@ -21,9 +21,10 @@ namespace App1
 
         public MainPage()
         {
+
             InitializeComponent();
             menuList = new List<MasterPageItem>();
-
+            
             var page1 = new MasterPageItem() { Title = "Promotions", Icon = "promotion_icon.png", TargetType = typeof(PromotionsPage) };
             var page2 = new MasterPageItem() { Title = "Social", Icon = "ssocial_icon.png", TargetType = typeof(SocialPage) };
             var page3 = new MasterPageItem() { Title = "Fórums", Icon = "forum_icon.png", TargetType = typeof(ForumPage) };
@@ -35,7 +36,7 @@ namespace App1
 
             navigationDrawerList.ItemsSource = menuList;
             // Initial navigation, this can be used for our home page
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(SocialPage)));
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomeTabbedPage)));
 
         }
 

@@ -1,5 +1,6 @@
 @string/appbar_scrolling_view_behavior;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
+{clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms}CachedImage;obj\Debug\90\res\drawable\splash_screen.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromleft.xml

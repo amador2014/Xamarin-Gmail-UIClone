@@ -12,18 +12,18 @@ using Xamarin.Forms.Xaml;
 namespace App1
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PromotionsPage : ContentPage
+    public partial class PromotionsPage : INotifyPropertyChanged
     {
-        const int duracaoRefresh = 2;
-
+        const int duracaoRefresh = 1;
+        public bool IsRefreshing{get; set;}
         public ICommand RefreshCommand => new Command(async () => await RefreshItemsAsync());
 
-        public bool IsRefreshing{get; set;}
         
 
         public PromotionsPage()
         {
             InitializeComponent();
+            
         }
 
         private void OnArchivedSwipeItem(object sender, EventArgs e)

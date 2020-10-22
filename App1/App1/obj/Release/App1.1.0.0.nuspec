@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>App1</id>
+    <version>1.0.0</version>
+    <authors>App1</authors>
+    <owners>App1</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.FFImageLoading" version="2.4.11.982" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.FFImageLoading.Forms" version="2.4.11.982" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.FFImageLoading.Svg.Forms" version="2.4.11.982" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.FFImageLoading.Transformations" version="2.4.11.982" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.8.0.1560" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1\bin\Release\netstandard2.0\App1.dll" target="lib\netstandard2.0\App1.dll" />
+  </files>
+</package>

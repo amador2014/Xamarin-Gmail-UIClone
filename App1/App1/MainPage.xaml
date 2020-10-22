@@ -13,7 +13,7 @@
         <ContentPage  Title="My Title"  Padding="10">
             <ContentPage.Resources>
                 <!--FOLHA DE CASCATA-->
-                <StyleSheet Source="Styles/global.css" />
+                <StyleSheet Source="Assets/global.css" />
 
                 <!--ESTILOS INDIRETOS-->
                 <Style TargetType="StackLayout" Class="ListItemPage">

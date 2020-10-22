@@ -1,5 +1,10 @@
-<layer-list xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading1="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:forms="clr-namespace:Lottie.Forms/assembly=Lottie.Forms" xmlns:android="http://schemas.android.com/apk/res/android"><item><color android:color="@color/splash_background"></color></item><item><bitmap android:src="@drawable/loading" android:tileMode="disabled" android:gravity="center" /><!--<ffimageloading1:CachedImage
-                    Source="loading.gif"
+<layer-list xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ffimageloading1="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:forms="clr-namespace:Lottie.Forms/assembly=Lottie.Forms" xmlns:android="http://schemas.android.com/apk/res/android"><item><color android:color="@color/splash_background"></color></item><item><!--<bitmap
+        android:src="@drawable/loading.gif"
+        android:tileMode="disabled"
+        android:gravity="center"
+  
+        />--><!--<ffimageloading1:CachedImage
+                    Source="resource://App1.loading.gif"
                     HeightRequest="150"
                     WidthRequest="150"
                     CacheDuration="7">
