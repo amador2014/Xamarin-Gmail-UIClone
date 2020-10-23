@@ -40,12 +40,29 @@
     <ContentPage.Content>
         <RefreshView 
             RefreshColor="#1E8E3E"
-            IsRefreshing="False"
+            IsRefreshing="{Binding Second}"
              Command="{Binding RefreshCommand}">
             <ScrollView>
                 <StackLayout>
 
-                    <SearchBar Placeholder="Search items..." />
+                    <Frame HasShadow="True"
+                           CornerRadius="10"
+                           WidthRequest="280"
+                           HeightRequest="40"
+                           Padding="10,10,10,10"
+                           BackgroundColor="GhostWhite"
+                           Margin="20, 10, 20, 10">
+                        <StackLayout Orientation="Horizontal" >
+
+                            <SearchBar Placeholder="Search mail..." Margin="0,0,5,0" HorizontalOptions="Start" WidthRequest="280" HeightRequest="40" />
+
+                            <ff:CachedImage  StyleClass="grid-image-perfil" Margin="0,0,0,0" VerticalOptions="Center" HorizontalOptions="End" HeightRequest="40" WidthRequest="40">
+                            <ff:CachedImage.Transformations>
+                                <ffTransformations:CircleTransformation />
+                            </ff:CachedImage.Transformations>
+                         </ff:CachedImage>
+                        </StackLayout>
+                    </Frame>
 
                     <SwipeView >
                         <!--TIPO SWIPEVIEW-->
@@ -115,9 +132,279 @@
                         </Frame>
 
                     </SwipeView>
-                    
-                    
-                    
+                    <SwipeView >
+                        <!--TIPO SWIPEVIEW-->
+                        <SwipeView.LeftItems>
+                            <!--MODE EXECUTE ACIONA O 'INVOKED' AO SOLTAR O DEDO-->
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem 
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem
+                                    Text=""
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <!--CONTEUDO-->
+                        <Frame StyleClass="grid-swipe-view" >
+
+                            <StackLayout Orientation="Horizontal" >
+                                <ff:CachedImage  StyleClass="grid-image-perfil">
+                                    <ff:CachedImage.Transformations>
+                                        <ffTransformations:CircleTransformation />
+                                    </ff:CachedImage.Transformations>
+                                </ff:CachedImage>
+
+                                <StackLayout >
+                                    <Label Text="Diego | Rocketseat"
+                                           StyleClass="main-content-message"
+                                           FontSize="20"
+                                           Margin="0,0,0,-3"/>
+                                    <Label Text="Matriculas abertas"
+                                           StyleClass="main-content-message"
+                                           FontSize="17"
+                                           Margin="0,0,0,-5"/>
+
+                                    <Label Text="Faala dev! Como você já sabe, o aprendizado é contínuo e sempre"
+                                           StyleClass="main-content-message"
+                                           FontAttributes="None"/>
+                                </StackLayout>
+
+                                <StackLayout >
+                                    <Label Text="11:08"
+                                           Padding="-30,0,10,0"
+                                           LineBreakMode="NoWrap"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="Start" />
+
+                                    <Image Source="favorite_icon"
+                                           Margin="0,0,10,0"
+                                           HeightRequest="60"
+                                           WidthRequest="25"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="End"
+                                           />
+
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+
+                    </SwipeView>
+                    <SwipeView >
+                        <!--TIPO SWIPEVIEW-->
+                        <SwipeView.LeftItems>
+                            <!--MODE EXECUTE ACIONA O 'INVOKED' AO SOLTAR O DEDO-->
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem 
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem
+                                    Text=""
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <!--CONTEUDO-->
+                        <Frame StyleClass="grid-swipe-view" >
+
+                            <StackLayout Orientation="Horizontal" >
+                                <ff:CachedImage  StyleClass="grid-image-perfil">
+                                    <ff:CachedImage.Transformations>
+                                        <ffTransformations:CircleTransformation />
+                                    </ff:CachedImage.Transformations>
+                                </ff:CachedImage>
+
+                                <StackLayout >
+                                    <Label Text="Diego | Rocketseat"
+                                           StyleClass="main-content-message"
+                                           FontSize="20"
+                                           Margin="0,0,0,-3"/>
+                                    <Label Text="Matriculas abertas"
+                                           StyleClass="main-content-message"
+                                           FontSize="17"
+                                           Margin="0,0,0,-5"/>
+
+                                    <Label Text="Faala dev! Como você já sabe, o aprendizado é contínuo e sempre"
+                                           StyleClass="main-content-message"
+                                           FontAttributes="None"/>
+                                </StackLayout>
+
+                                <StackLayout >
+                                    <Label Text="11:08"
+                                           Padding="-30,0,10,0"
+                                           LineBreakMode="NoWrap"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="Start" />
+
+                                    <Image Source="favorite_icon"
+                                           Margin="0,0,10,0"
+                                           HeightRequest="60"
+                                           WidthRequest="25"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="End"
+                                           />
+
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+
+                    </SwipeView>
+                    <SwipeView >
+                        <!--TIPO SWIPEVIEW-->
+                        <SwipeView.LeftItems>
+                            <!--MODE EXECUTE ACIONA O 'INVOKED' AO SOLTAR O DEDO-->
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem 
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem
+                                    Text=""
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <!--CONTEUDO-->
+                        <Frame StyleClass="grid-swipe-view" >
+
+                            <StackLayout Orientation="Horizontal" >
+                                <ff:CachedImage  StyleClass="grid-image-perfil">
+                                    <ff:CachedImage.Transformations>
+                                        <ffTransformations:CircleTransformation />
+                                    </ff:CachedImage.Transformations>
+                                </ff:CachedImage>
+
+                                <StackLayout >
+                                    <Label Text="Diego | Rocketseat"
+                                           StyleClass="main-content-message"
+                                           FontSize="20"
+                                           Margin="0,0,0,-3"/>
+                                    <Label Text="Matriculas abertas"
+                                           StyleClass="main-content-message"
+                                           FontSize="17"
+                                           Margin="0,0,0,-5"/>
+
+                                    <Label Text="Faala dev! Como você já sabe, o aprendizado é contínuo e sempre"
+                                           StyleClass="main-content-message"
+                                           FontAttributes="None"/>
+                                </StackLayout>
+
+                                <StackLayout >
+                                    <Label Text="11:08"
+                                           Padding="-30,0,10,0"
+                                           LineBreakMode="NoWrap"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="Start" />
+
+                                    <Image Source="favorite_icon"
+                                           Margin="0,0,10,0"
+                                           HeightRequest="60"
+                                           WidthRequest="25"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="End"
+                                           />
+
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+
+                    </SwipeView>
+                    <SwipeView >
+                        <!--TIPO SWIPEVIEW-->
+                        <SwipeView.LeftItems>
+                            <!--MODE EXECUTE ACIONA O 'INVOKED' AO SOLTAR O DEDO-->
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem 
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItem
+                                    Text=""
+                                    IconImageSource="archived_icon"
+                                    BackgroundColor="#1E8E3E"
+                                    Invoked="OnArchivedSwipeItem" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <!--CONTEUDO-->
+                        <Frame StyleClass="grid-swipe-view" >
+
+                            <StackLayout Orientation="Horizontal" >
+                                <ff:CachedImage  StyleClass="grid-image-perfil">
+                                    <ff:CachedImage.Transformations>
+                                        <ffTransformations:CircleTransformation />
+                                    </ff:CachedImage.Transformations>
+                                </ff:CachedImage>
+
+                                <StackLayout >
+                                    <Label Text="Diego | Rocketseat"
+                                           StyleClass="main-content-message"
+                                           FontSize="20"
+                                           Margin="0,0,0,-3"/>
+                                    <Label Text="Matriculas abertas"
+                                           StyleClass="main-content-message"
+                                           FontSize="17"
+                                           Margin="0,0,0,-5"/>
+
+                                    <Label Text="Faala dev! Como você já sabe, o aprendizado é contínuo e sempre"
+                                           StyleClass="main-content-message"
+                                           FontAttributes="None"/>
+                                </StackLayout>
+
+                                <StackLayout >
+                                    <Label Text="11:08"
+                                           Padding="-30,0,10,0"
+                                           LineBreakMode="NoWrap"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="Start" />
+
+                                    <Image Source="favorite_icon"
+                                           Margin="0,0,10,0"
+                                           HeightRequest="60"
+                                           WidthRequest="25"
+                                           HorizontalOptions="End"
+                                           VerticalOptions="End"
+                                           />
+
+                                </StackLayout>
+
+                            </StackLayout>
+                        </Frame>
+
+                    </SwipeView>
+
                 </StackLayout>
             </ScrollView>
         </RefreshView>
