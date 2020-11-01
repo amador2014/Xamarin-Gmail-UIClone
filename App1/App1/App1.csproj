@@ -17,13 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="loading.gif" />
     <None Remove="Assets\global.css" />
     <None Remove="user_generic.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="loading.gif" />
     <EmbeddedResource Include="user_generic.png" />
   </ItemGroup>
 

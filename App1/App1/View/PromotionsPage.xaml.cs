@@ -28,7 +28,7 @@ namespace App1
 
         private void OnArchivedSwipeItem(object sender, EventArgs e)
         {
-            DisplayAlert("1 Arquivado", "Arquivado comsucesso", "Ok");
+            DisplayAlert("1 Arquivado", "Arquivado com sucesso", "Ok");
         }
 
          async Task RefreshItemsAsync()
@@ -37,11 +37,6 @@ namespace App1
             await Task.Delay(TimeSpan.FromSeconds(duracaoRefresh));
             IsRefreshing = false;
         }
-
-
-
-    
-
 
     }
 }

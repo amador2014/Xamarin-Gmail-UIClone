@@ -1,6 +1,5 @@
 @string/appbar_scrolling_view_behavior;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\layout\flyoutcontent.xml
 @string/appbar_scrolling_view_behavior;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\layout\rootlayout.xml
-{clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms}CachedImage;obj\Debug\90\res\drawable\splash_screen.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\46\jl\res\anim\enterfromleft.xml
@@ -22,7 +21,6 @@ attr;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome
 attr;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\6\jl\res\values\values.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-bitmap;obj\Debug\90\res\drawable\splash_screen.xml
 cache-path;C:\Users\FIC\Documents\Gabriel Rodigues Amador\Projetos_dev\Xamarim\Welcome Xamarim\App1\App1.Android\obj\Debug\90\lp\45\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\drawable\splash_screen.xml
 color;obj\Debug\90\res\values\colors.xml

@@ -171,4 +171,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\user_generic.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\user_perfil.png" />
+  </ItemGroup>
 </Project>
