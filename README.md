@@ -1,19 +1,36 @@
-# Xamarin-Forms-Gmail-UI-Clone
-> Este projeto é um desafio que me propus fazer de modo a estudar e aprender mais sobre a tecnologia.
+<p align="center" >
+  <h1 align="center"> UIClone Interface Gmail </h1>
+</p>
 
-## Principais aprendizados 
-- Interface
+<p align="center" >
+  <img align="center" width="750px" src="https://i.pinimg.com/originals/67/57/0f/67570feea4f4668ca46fb77011eed4d2.png?epik=dj0yJnU9cGFYNFZjdmxabGcxWUhWOTFBeGRkd3ZfVUc4TjVqSnEmcD0wJm49dE1pandPbVFScHVxSGtjRmc4aUUzUSZ0PUFBQUFBR0FQbFFr" />
+</p>
+
+<p align="center" >
+  <img align="center" src="https://img.shields.io/github/last-commit/amador2014/Gmail-UIClone">
+  <img align="center" src="https://img.shields.io/github/license/amador2014/Gmail-UIClone" />
+  <img align="center" src="https://img.shields.io/github/languages/count/amador2014/Gmail-UIClone" />
+  <img align="center" src="https://img.shields.io/github/languages/top/amador2014/Gmail-UIClone" />
+</p>
+
+
+## :pushpin: Sumário
+Projeto desenvolvido como forma de estudo aplicado a Xamarin Forms!
+
+## :brain: Principais aprendizados 
+- :heavy_check_mark: Interface
   - Tipos de Layouts
   - SwipeView
   - Navegações (MasterDetail e TabbedPage)
   - RefreshView
   - Estilizaçãó em Geral
-- Estrutura de Projeto
+- :heavy_check_mark: Estrutura de Projeto Xamarin
 
+## :iphone: Plataformas
+- Android, IOS.
 
-## Veja o resultado..
+## :rocket: Tecnologias
+:heavy_check_mark: Puro e total Xamarin Forms através do C#.
 
-
-[Clique aqui](https://br.pinterest.com/pin/841047299157872234/) acessar o vídeo demonstrativo no [**Pinterest**](https://br.pinterest.com/gabrielramador2014/). 
-
-![a](https://i.pinimg.com/originals/dd/1c/bd/dd1cbdc6ba2145c8d1f5e5b87c69c303.png)
+## :memo: Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
